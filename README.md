@@ -38,3 +38,4 @@ Le Framework PHP utilisé a été fait en cours.
 - <a href="https://github.com/LamiRemy">Rémy CRESPE</a>
 - <a href="https://github.com/mickou43">Mickaël DAUPHIN</a>
 - <a href="https://github.com/Lyawii">Julie TROUCHKINE</a>
+- <a href="https://github.com/corentin703">Corentin VÉROT</a>
