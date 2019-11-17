@@ -12,8 +12,29 @@ Le projet n'a pas abouti (il n'a duré que 3 mois et ce n'était qu'un début en
 
 Le Framework PHP utilisé a été fait en cours.
 
-### Projet fait avec : 
-- Rémy CRESPE
-- Mickaël DAUPHIN
-- Julie TROUCHKINE
+### Formulaire de connexion
+<div>
+  <img src="https://raw.githubusercontent.com/corentin703/SAMPLE-Appareils-connectes/master/ReadMe/Login.jpg" width=30%"/>
+</div>
 
+### Formulaire d'inscription                                                                                                             
+<div>                                                                                                                      
+  <img src="https://raw.githubusercontent.com/corentin703/SAMPLE-Appareils-connectes/master/ReadMe/SignUp1.jpg" width=30%"/> 
+  <img src="https://raw.githubusercontent.com/corentin703/SAMPLE-Appareils-connectes/master/ReadMe/SignUp2.jpg" width=30%"/>
+</div>
+
+### Menu principal: l'icone de l'ampoule s'adapte en fonction de son état (allumée / éteinte)
+<div>
+  <img src="https://raw.githubusercontent.com/corentin703/SAMPLE-Appareils-connectes/master/ReadMe/MainMenu-LightOn.jpg" width=30%"/>
+  <img src="https://raw.githubusercontent.com/corentin703/SAMPLE-Appareils-connectes/master/ReadMe/MainMenu-LightOff.jpg" width=30%"/>
+</div>
+
+### Modèle relationel de la base de données
+<br/>
+<img src="https://raw.githubusercontent.com/corentin703/SAMPLE-Appareils-connectes/master/ReadMe/DB.jpg" width=100%"/>
+<br/>
+
+### Projet fait avec : 
+- <a href="https://github.com/LamiRemy">Rémy CRESPE</a>
+- <a href="https://github.com/mickou43">Mickaël DAUPHIN</a>
+- <a href="https://github.com/Lyawii">Julie TROUCHKINE</a>
