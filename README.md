@@ -34,7 +34,7 @@ Le Framework PHP utilisé a été fait en cours.
 <img src="https://raw.githubusercontent.com/corentin703/SAMPLE-Appareils-connectes/master/ReadMe/DB.jpg" width=100%"/>
 <br/>
 
-### Projet fait avec : 
+### Projet fait par : 
 - <a href="https://github.com/LamiRemy">Rémy CRESPE</a>
 - <a href="https://github.com/mickou43">Mickaël DAUPHIN</a>
 - <a href="https://github.com/Lyawii">Julie TROUCHKINE</a>
