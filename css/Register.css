@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan');
+
+body
+{
+    background-color : #85BAFE;
+    font-family: Baloo Chettan;
+}
+
+img
+{
+	display: block;
+	margin-left: auto;
+   	margin-right: auto;
+}
+
+h1
+{
+	text-align : center;
+	color: navy;
+	font-family: Baloo Chettan;
+	font-size: 225%;
+}
+
+/* ------ Input ------ */
+/* ------ Input_Start ------ */
+
+.input {
+    position: relative;
+    z-index: 1;
+    margin: 1em;
+    width: calc(100% - 2em);
+}
+
+.input__field {
+    position: relative;
+    display: block;
+    float: right;
+    padding-left: 0.8em;
+    width: 100%;
+    border: none;
+    background: #f0f0f0;
+    color: #aaa;
+    font-weight: bold;
+    font-family: Baloo Chettan;
+    -webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+    outline: none;
+}
+
+.input__label {
+    display: inline-block;
+    float: right;
+    width: 40%;
+    color: #6a7989;
+    font-weight: bold;
+    font-size: 70.25%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.input__label-content {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+.icon {
+    color: #ddd;
+    font-size: 100%;
+}
+
+/* ------ Input_Propriety ------ */
+
+.input--kaede {
+    display: block;
+    overflow: hidden;
+    margin: 1em auto 2em;
+    background: #EFEEEE;
+}
+
+.input__field--kaede {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    color: black;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.input__label--kaede {
+    z-index: 10;
+    display: block;
+    width: 95%;
+    height: 100%;
+    text-align: left;
+    cursor: text;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.input__label-content--kaede {
+    padding: 1.5em 0;
+}
+
+.input__field--kaede:focus,
+.input--filled .input__field--kaede {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    -webkit-transition-delay: 0.06s;
+    transition-delay: 0.06s;
+}
+
+.input__field--kaede:focus + .input__label--kaede,
+.input--filled .input__label--kaede  {
+    -webkit-transform: translate3d(60%, 0, 0);
+    transform: translate3d(60%, 0, 0);
+    pointer-events: none;
+}
+
+@media screen and (max-width: 34em) {
+    .input__field--kaede:focus + .input__label--kaede,
+    .input--filled .input__label--kaede  {
+        -webkit-transform: translate3d(65%, 0, 0) scale3d(0.65, 0.65, 1);
+        transform: translate3d(65%, 0, 0) scale3d(0.65, 0.65, 1);
+        pointer-events: none;
+    }
+}
+
+/* -------------- */
+
+button
+{
+  font-family:  Baloo Chettan;
+}
+
+input[type=username], input[type=password], input[type=email] 
+{
+  width: 50.7%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=username], input[type=email] {
+  margin: 8px 0;
+}
+
+
+button[type=submit] {
+    background-color: #3366FF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: Baloo Chettan;
+}
+button[type=back] {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: Baloo Chettan;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+}
