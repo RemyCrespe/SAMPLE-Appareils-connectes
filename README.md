@@ -36,6 +36,6 @@ Le Framework PHP utilisé a été fait en cours.
 
 ### Projet fait par : 
 - [Rémy CRESPE](https://github.com/RemyCrespe)
-- [Mickaël DAUPHIN](https://github.com/Mickaeldauphin)
+- [Mickaël DAUPHIN](https://github.com/MickaelDauphin)
 - [Julie TROUCHKINE](https://github.com/Lyawii)
 - [Corentin VÉROT](https://github.com/corentin703)
